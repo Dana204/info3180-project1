@@ -33,7 +33,7 @@ def secure_page():
 @app.route('/about/')
 def about():
     """Render the website's about page."""
-    return render_template('about.html',name="Jevoun Tyrell")
+    return render_template('about.html',name="Dana Campbell")
     
  
 
