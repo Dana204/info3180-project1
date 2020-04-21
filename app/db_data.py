@@ -3,11 +3,11 @@ import psycopg2
 
 def getData():
     try:
-        connection = psycopg2.connect(user="foawmaqxxdiizl",
-                                      password="c04d6c9147e4b5429cb4d0c5f01a9e8999b447a6e724f8bba7ef54a02fded82a",
-                                      host="ec2-52-87-58-157.compute-1.amazonaws.com",
+        connection = psycopg2.connect(user="oeijnwzcwluxmu",
+                                      password="f82857995279fc41b70869b10e3abad8edcc43aacdb41fd9c6b91c709d394508",
+                                      host="ec2-54-147-209-121.compute-1.amazonaws.com",
                                       port="5432",
-                                      database="d6dvr900ccamgj")
+                                      database="d7seuhs2uh13ob")
         cursor = connection.cursor()
         postgreSQL_select_Query = "select * from user_profile"
         cursor.execute(postgreSQL_select_Query)
